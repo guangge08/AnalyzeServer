@@ -12,7 +12,7 @@ import redis.clients.jedis.Jedis
 
 /**
   * kafka数据流事件监听类
-  * Created by dengxiwen on 2017/7/20.
+  * Created by huoguang on 2017/7/20.
   */
 class KafkaStreamListener extends  StreamingListener{
 
