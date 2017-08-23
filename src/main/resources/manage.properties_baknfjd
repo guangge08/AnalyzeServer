@@ -1,0 +1,12 @@
+# this file is config
+aplication.sql.url=jdbc:postgresql://10.252.47.214:5432/NXSOC5
+aplication.sql.username=postgres
+aplication.sql.password=12345)(*&^%RFVwsx
+#spark config
+spark.master.url=spark://aqtsgzsjfxpt210:7077
+spark.app.name=SOC_BigData
+#zookeeper config
+zookeeper.host=aqtsgzpt215,aqtsgzsjfxpt213,aqtsgzsjfxpt212,aqtsgzsjfxpt211,aqtsgzsjfxpt210,aqtsgzsjfxpt209,aqtsgzsjfxpt208
+zookeeper.port=2181
+#kafka config
+kafka.log.topic=log-topic

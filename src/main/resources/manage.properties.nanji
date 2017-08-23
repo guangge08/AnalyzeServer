@@ -1,0 +1,30 @@
+# this file is config
+aplication.sql.url=jdbc:postgresql://10.252.47.214:5432/NXSOC5
+aplication.sql.username=postgres
+aplication.sql.password=12345)(*&^%RFVwsx
+#spark config
+spark.master.url=spark://aqtsgzpt214:7077
+spark.analyze.app.name=SOC_BigData_Analyze
+spark.auto.app.name=SOC_BigData_Auto
+#zookeeper config
+zookeeper.host=aqtsgzpt215,aqtsgzsjfxpt213,aqtsgzsjfxpt212,aqtsgzsjfxpt211
+zookeeper.kafka.host=aqtsgzsjfxpt210,aqtsgzsjfxpt208,aqtsgzsjfxpt209
+zookeeper.port=2181
+kafka.host.list=aqtsgzsjfxpt210:9092,aqtsgzsjfxpt208:9092,aqtsgzsjfxpt209:9092
+#kafka config
+kafka.log.topic=log-topic
+kafka.loguser.topic=loguser-topic
+kafka.genlog.topic=genlog-topic
+kafka.event.topic=event-topic
+kafka.sinalevent.topic=sinalevent-topic
+kafka.gevent.topic=gevent-topic
+
+kafka.flow.topic=flow-topic
+#redis config
+redis.host=10.252.47.215
+#ES config
+#多个以,分隔
+es.nodes=10.252.47.214
+es.port=9200
+#rule flush time (s)
+redis.rule.reflush=30
